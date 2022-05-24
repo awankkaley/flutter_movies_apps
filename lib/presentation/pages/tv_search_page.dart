@@ -24,6 +24,7 @@ class TvSearchPage extends StatelessWidget {
             TextField(
               onChanged: (query) {
                 context.read<TvSearchBloc>().add(OnQueryChanged(query));
+
               },
               decoration: InputDecoration(
                 hintText: 'Search title',
