@@ -1,5 +1,6 @@
 import 'package:ditonton/domain/entities/tv.dart';
 import 'package:flutter/foundation.dart';
+
 import '../../common/state_enum.dart';
 import '../../domain/usecases/get_top_rated_tv.dart';
 
